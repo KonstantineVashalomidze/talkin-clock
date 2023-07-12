@@ -43,7 +43,7 @@ public class TalkingClock {
     public void start()
     {
         // TimerPrinter is a subclass of ActionListener
-        var listener = new TimePrinter();
+        var listener = this.new TimePrinter();
         // TimerPrinter.actionPerformed will be automatically called by Timer constructor
         var timer = new Timer(this.interval, listener);
         // Start timer
